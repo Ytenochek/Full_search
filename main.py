@@ -33,7 +33,6 @@ else:
 
         point = place["geometry"]["coordinates"]
         org_point = "{0},{1}".format(point[0], point[1])
-        delta = "25"
 
         map_params = {
             "spn": ",".join(spn),
